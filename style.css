@@ -48,10 +48,6 @@ a:active {
   color: #247e85;
 }
 
-.bird {
-  width: 100px;
-}
-
 div.wallpaper {
   background-color: aliceblue;
 }
@@ -59,4 +55,8 @@ div.wallpaper {
 .prikry {
   width: 33%;
   border: 5px ridge #9fd8e1;
+}
+
+.bird {
+  width: 100px;
 }
