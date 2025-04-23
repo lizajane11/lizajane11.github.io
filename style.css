@@ -3,6 +3,60 @@
 }
 
 body {
-  /* background-image: url("prickry.jpg");
-  background-color: #cccccc2b; */
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-pages {
+  display: flex;
+  width: 33%;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.nav-items {
+}
+
+a {
+  font-size: larger;
+}
+
+a:link {
+  color: #247e85;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #7bb970;
+}
+
+a:focus {
+  color: #247e85;
+}
+
+a:hover {
+  color: #852433;
+  text-transform: capitalize;
+}
+
+a:active {
+  color: #247e85;
+}
+
+.bird {
+  width: 100px;
+}
+
+div.wallpaper {
+  background-color: aliceblue;
+}
+
+.prikry {
+  width: 33%;
+  border: 5px ridge #9fd8e1;
 }
